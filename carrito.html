@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/carrito.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Special+Gothic:wght@400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- CABEZERA -->
+
+    <header class="Header">
+        <a href="index.html" class="Header-a">
+            <img src="assets/Logo_AttikStudio_Negative.svg" alt="AttikStudio Logo" loading="lazy" class="Header-img">
+        </a>
+
+        <nav class="Header-nav">
+
+            <button class="Hamburger" aria-label="Abrir menú" aria-expanded="false">
+                <span class="Line"></span>
+                <span class="Line"></span>
+                <span class="Line"></span>
+            </button>
+            <ul class="Header-ulLeft">
+                <li class="Header-liLeft">
+                    <a href="index.html" class="Header-aLeft">Home</a>
+                    <a href="tienda.html" class="Header-aLeft">Tienda</a>
+                    <a href="proyectos.html" class="Header-aLeft">Proyectos</a>
+                    <a href="nosotros.html" class="Header-aLeft">Nosotros</a>
+                </li>
+            </ul>
+            <ul class="Header-ulRight">
+                <li class="Header-liRight">
+                    <a href="carrito.html" class="Header-aRight Header-aRight--bold">Carrito</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- CABECERA PRODUCTOS SELECCIONADOS -->
+
+        <div class="SelectedProducts-header">
+            <div class="SelectedProducts-headerImgWrapper">
+                <img src="assets/Simbolo_AttikStudio.svg" alt="Símbolo AttikStudio" loading="lazy" class="Product-headerImg">
+            </div>
+            <div class="SelectedProducts-headerTextWrapper">
+                <h2 class="SelectedProducts-headerH2">Tu selección</h2>
+                <a href="tienda.html" class="Button">
+                    <img src="assets/Arrow.svg" alt="Arrow" loading="lazy" class="Button-symbol">
+                    <span class="Button-text">Volver a la tienda</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PRODUCTOS SELECCIONADOS -->
+
+        <div class="Selected-section">
+            <div class="SelectedSection-productWrapper">
+                <article class="Product-article">
+                    <div class="Product-imgWrapper">
+                        <img src="assets/Vela.jpg" alt="Sillón Cromado Vela" loading="lazy" class="Product-img">
+                        <div class="Product-colors">
+                            <div class="Product-color Blanco"></div>
+                            <div class="Product-color VerdeMusgo"></div>
+                            <div class="Product-color BurdeosOscuro"></div>
+                        </div>
+                    </div>
+                    <div class="Product-info">
+                        <div class="Product-description">
+                            <h3 class="Product-descriptionH3">Vela <span class="Unidades">(1)</span></h3>
+                            <span class="Product-buttonDelete">Eliminar</span>
+                        </div>
+                        <span class="Product-span">790 €</span>
+                    </div>
+                </article>
+                <article class="Product-article">
+                    <div class="Product-imgWrapper">
+                        <img src="assets/Riva.jpg" alt="Silla de Ratán Riva" loading="lazy" class="Product-img">
+                        <div class="Product-colors">
+                            <div class="Product-color CremaAlmendra"></div>
+                        </div>
+                    </div>
+                    <div class="Product-info">
+                        <div class="Product-description">
+                            <h3 class="Product-descriptionH3">Riva <span class="Unidades">(1)</span></h3>
+                            <span class="Product-buttonDelete">Eliminar</span>
+                        </div>
+                        <span class="Product-span">650 €</span>
+                    </div>
+                </article>
+                <article class="Product-article">
+                    <div class="Product-imgWrapper">
+                        <img src="assets/Nara.jpg" alt="Sillón Tapizado Nara" loading="lazy" class="Product-img">
+                        <div class="Product-colors">
+                            <div class="Product-color BlancoNiebla"></div>
+                            <div class="Product-color BurdeosOscuro"></div>
+                            <div class="Product-color NegroCarbon"></div>
+                        </div>
+                    </div>
+                    <div class="Product-info">
+                        <div class="Product-description">
+                            <h3 class="Product-descriptionH3">Nara <span class="Unidades">(1)</span></h3>
+                            <span class="Product-buttonDelete">Eliminar</span>
+                        </div>
+                        <span class="Product-span">695 €</span>
+                    </div>
+                </article>
+                <div class="Product-amount">
+                    <span class="Product-total">Total</span>
+                    <span class="Product-euros">2.105 €</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORMULARIO -->
+
+        <section class="SelectedProducts-form">
+            <div class="Form-title">
+                <h2 class="Form-h2">Enviar solicitud</h2>
+            </div>
+            <div class="Form-content">
+                <div class="Form-info">
+                    <p class="Form-p">
+                        resolvemos tus dudas, confirmamos
+                        la disponibilidad y te mandamos el
+                        presupuesto con un enlace de pago
+                        seguro para que decidas. <br>
+                        <strong>100% sin compromiso.</strong>
+                    </p>
+                </div>
+                <form class="Form-fields">
+                    <div class="Form-field">
+                        <label for="nombre">nombre y apellidos*</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="Form-field">
+                        <label for="correo">correo electrónico*</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+                    <div class="Form-field">
+                        <label for="telefono">teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                </form>
+                <div class="Form-message">
+                    <label for="Message">¿dudas? escríbenos...</label>
+                    <textarea id="Message" name="Message"></textarea>
+                </div>
+            </div>
+
+            <div class="Form-submit">
+                <button class="Form-button" type="submit" form="solicitud">
+                    <img src="assets/Arrow.svg" alt="Arrow" loading="lazy" class="Button-symbol">
+                    <span class="Button-text">Enviar solicitud</span>
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE -->
+
+    <footer class="Footer">
+        <div class="Footer-logos">
+            <a href="index.html">
+                <img src="assets/Logo_AttikStudio_Positive.svg" alt="Logo AttikStudio" loading="lazy" class="Footer-imgLogo">
+            </a>
+            <img src="assets/Simbolo_AttikStudio.svg" alt="Symbol AttikStudio" loading="lazy" class="Footer-imgSymbol">
+        </div>
+        <div class="Footer-socials">
+            <span class="Socials-span">Échanos un vistazo</span>
+            <ul class="Socials-ul">
+                <li class="Socials-li">
+                    <a href="https://www.instagram.com" class="Socials-a" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/Instagram.svg" alt="Instagram" loading="lazy" class="Socials-img">
+                    </a>
+                </li>
+                <li class="Socials-li">
+                    <a href="https://www.facebook.com" class="Socials-a" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/Facebook.svg" alt="Facebook" loading="lazy" class="Socials-img">
+                    </a>
+                </li>
+                <li class="Socials-li">
+                    <a href="https://www.linkedin.com" class="Socials-a" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/Linkedin.svg" alt="Linkedin" loading="lazy" class="Socials-img">
+                    </a>
+                </li>
+                <li class="Socials-li">
+                    <a href="https://www.behance.net" class="Socials-a" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/Behance.svg" alt="Behance" loading="lazy" class="Socials-img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="Footer-contactLegals">
+            <ul class="Contact-legalsUl">
+                <li class="Contact-legalsLi">
+                    <form action="/suscripcion" method="POST" class="Newsletter-form">
+                        <label for="email-newsletter">Newsletter</label>
+                        <input type="email" id="email-newsletter" name="email" placeholder="Introduce tu email"
+                            required>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </li>
+                <li class="Contact-legalsLi">
+                    <a href="nosotros.html" class="Contact-legalsA">Contacto</a>
+                </li>
+                <li class="Contact-legalsLi">
+                    <a href="politica-de-privacidad.html" class="Contact-legalsA">Política de privacidad</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
