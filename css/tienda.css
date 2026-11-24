@@ -212,7 +212,7 @@ p {
                 display: none;
             }
 
-            .Hamburger {
+            .Header-hamburger {
                 display: flex;
             }
         }
@@ -220,7 +220,7 @@ p {
 
 }
 
-.Hamburger {
+.Header-hamburger {
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -266,36 +266,36 @@ p {
 /* CABECERA TIENDA */
 
 
-.Shop-header {
+.ShopHeader {
 width: 100%;
 min-height: 150px;
 
 display: grid;
 grid-template-columns: 1fr 2fr;
 
-.Shop-headerImgWrapper {
+.ShopHeader-imgWrapper {
     min-width: 400px;
     position:relative;
     border-right: var(--borderSubtle);
 
 }
-    .Shop-headerImg {
+    .ShopHeader-img {
         width: 100%;
         position: absolute;
         bottom: 20px;
         
     }
 
-    .Shop-headerTextWrapper {
+    .ShopHeader-textWrapper {
         display: grid;
         grid-template-rows: 1fr 70px;
     }
 
-    .Shop-headerH2 {
+    .ShopHeader-h2 {
         padding: 40px;
     }
 
-    .Shop-headerFilter {
+    .ShopHeader-filter {
         border-top: var(--borderSubtle);
 
         display: flex;
@@ -306,13 +306,13 @@ grid-template-columns: 1fr 2fr;
         
     }
 
-    .Filter-span {
+    .ShopHeader-filterSpan {
         font-weight: 300;
         letter-spacing: 1px;
         text-transform: lowercase;
     }
 
-    .Filter-button {
+    .ShopHeader-filterButton {
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 6px;
@@ -324,13 +324,13 @@ grid-template-columns: 1fr 2fr;
         margin-right: 40px;
     }
 
-    .Button-symbol {
+    .ShopHeader-buttonSymbol {
         width: 10px;
         height: 10px;
         rotate: 90deg;
     }
 
-    .Button-text {
+    .ShopHeader-buttonText {
         color: var(--burdeos);
     }
 }
@@ -350,23 +350,23 @@ grid-template-columns: 1fr 2fr;
     .Products-wrapper > *:not(:nth-child(3n)) {
         border-right: var(--borderSubtle);
     }
-    .Product-article {
+    .Products-article {
         display: grid;
         grid-template-rows: 4fr 1fr;
     }
 
-    .Product-imgWrapper {
+    .Products-imgWrapper {
         position: relative;
     }
 
-    .Product-img {
+    .Products-img {
         width: 100%;
         min-height: 100%;
         background-color: white;
         object-fit: cover;
     }
 
-    .Product-colors {
+    .Products-colors {
         display: flex;
         flex-flow: row nowrap;
         justify-content: start;
@@ -376,7 +376,7 @@ grid-template-columns: 1fr 2fr;
         bottom: 5%;
     }
 
-    .Product-color {
+    .Products-color {
         width: 40px;
         min-height: 20px;
     }
@@ -413,7 +413,7 @@ grid-template-columns: 1fr 2fr;
         background-color: #D19A5F;
     }
 
-    .Product-info {
+    .Products-info {
         border-top: var(--borderSubtle);
         border-bottom: var(--borderSubtle);
 
@@ -423,18 +423,18 @@ grid-template-columns: 1fr 2fr;
         align-items: start;
     }
 
-    .Product-description {
+    .Products-description {
         margin: 20px 5px 20px 40px;
     }
 
-    .Product-descriptionH3 {}
+    .Products-descriptionH3 {}
 
-    .Product-descriptionP {
+    .Products-descriptionP {
         font-weight: 200;
         letter-spacing: 1px;
     }
 
-    .Product-span {
+    .Products-span {
         margin: 20px 40px 20px 5px;
         font-weight: 200;
         font-size: clamp(1.2rem, 1.33vw, 1.45rem);

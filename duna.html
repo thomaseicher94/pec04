@@ -26,7 +26,7 @@
 
         <nav class="Header-nav">
 
-            <button class="Hamburger" aria-label="Abrir menú" aria-expanded="false">
+            <button class="Header-hamburger" aria-label="Abrir menú" aria-expanded="false">
                 <span class="Line"></span>
                 <span class="Line"></span>
                 <span class="Line"></span>
@@ -51,12 +51,12 @@
 
         <!-- CABECERA PRODUCTO -->
 
-        <div class="Product-header">
-            <div class="Product-headerImgWrapper">
-                <img src="assets/Simbolo_AttikStudio.svg" alt="Símbolo AttikStudio" loading="lazy" class="Product-headerImg">
+        <div class="ProductHeader">
+            <div class="ProductHeader-imgWrapper">
+                <img src="assets/Simbolo_AttikStudio.svg" alt="Símbolo AttikStudio" loading="lazy" class="ProductHeader-img">
             </div>
-            <div class="Product-headerTextWrapper">
-                <h2 class="Product-headerH2">Duna</h2>
+            <div class="ProductHeader-textWrapper">
+                <h2 class="ProductHeader-h2">Duna</h2>
                 <a href="tienda.html" class="Button">
                     <img src="assets/Arrow.svg" alt="Arrow" loading="lazy" class="Button-symbol">
                     <span class="Button-text">Volver a la tienda</span>
@@ -70,10 +70,10 @@
             <div class="FeaturedSection-imgWrapper">
                 <img src="assets/Duna-Imagen3.jpg" alt="Duna Imagen Detalle" loading="lazy" class="FeaturedSection-img">
                 <div class="FeaturedSection-imgSmallWrapper">
-                    <img src="assets/Duna.jpg" alt="Imagen principal" loading="lazy" class="Small">
-                    <img src="assets/Duna-Imagen2.jpg" alt="Imagen lateral" loading="lazy" class="Small">
-                    <img src="assets/Duna-Imagen3.jpg" alt="Imagen detalle" loading="lazy" class="Small">
-                    <img src="assets/Duna-Imagen4.jpg" alt="Imagen respaldo" loading="lazy" class="Small">
+                    <img src="assets/Duna.jpg" alt="Imagen principal" loading="lazy" class="FeaturedSection-imgSmall">
+                    <img src="assets/Duna-Imagen2.jpg" alt="Imagen lateral" loading="lazy" class="FeaturedSection-imgSmall">
+                    <img src="assets/Duna-Imagen3.jpg" alt="Imagen detalle" loading="lazy" class="FeaturedSection-imgSmall">
+                    <img src="assets/Duna-Imagen4.jpg" alt="Imagen respaldo" loading="lazy" class="FeaturedSection-imgSmall">
                 </div>
             </div>
             <div class="FeaturedSection-textWrapper">
@@ -107,7 +107,7 @@
                         <span class="DownloadButton-span">Descargar ficha técnica</span>
                     </a>
                     <div class="FeaturedSection-purchase">
-                        <div class="PurchaseQuantity">
+                        <div class="FeaturedSection-purchaseQuantity">
                             <span class="Quantity">Cantidad</span>
                             <input type="number" id="cantidad" value="1" min="1">
                         </div>
@@ -182,7 +182,7 @@
         </div>
     </main>
 
-     <!-- PIE -->
+    <!-- PIE -->
 
     <footer class="Footer">
         <div class="Footer-logos">
@@ -217,19 +217,19 @@
             </ul>
         </div>
         <div class="Footer-contactLegals">
-            <ul class="Contact-legalsUl">
-                <li class="Contact-legalsLi">
-                    <form action="/suscripcion" method="POST" class="Newsletter-form">
+            <ul class="ContactLegals-ul">
+                <li class="ContactLegals-li">
+                    <form action="/suscripcion" method="POST" class="ContactLegals-form">
                         <label for="email-newsletter">Newsletter</label>
                         <input type="email" id="email-newsletter" name="email" placeholder="Introduce tu email"
                             required>
                         <button type="submit">Enviar</button>
                     </form>
                 </li>
-                <li class="Contact-legalsLi">
-                    <a href="nosotros.html" class="Contact-legalsA">Contacto</a>
+                <li class="ContactLegals-li">
+                    <a href="nosotros.html" class="ContactLegals-a">Contacto</a>
                 </li>
-                <li class="Contact-legalsLi">
+                <li class="ContactLegals-li">
                     <a href="politica-de-privacidad.html" class="Contact-legalsA">Política de privacidad</a>
                 </li>
             </ul>

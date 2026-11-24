@@ -212,7 +212,7 @@ p {
                 display: none;
             }
 
-            .Hamburger {
+            .Header-hamburger {
                 display: flex;
             }
         }
@@ -220,7 +220,7 @@ p {
 
 }
 
-.Hamburger {
+.Header-hamburger {
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -266,31 +266,31 @@ p {
 /* CABECERA PRODUCTO */
 
 
-.Product-header {
+.ProductHeader {
     width: 100%;
     min-height: 150px;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
-    .Product-headerImgWrapper {
+    .ProductHeader-imgWrapper {
         min-width: 400px;
         position: relative;
         border-right: var(--borderSubtle);
     }
 
-    .Product-headerImg {
+    .ProductHeader-img {
         width: 100%;
         position: absolute;
         bottom: 20px;
     }
 
-    .Product-headerTextWrapper {
+    .ProductHeader-textWrapper {
         display: grid;
         grid-template-rows: 1fr 70px;
     }
 
-    .Product-headerH2 {
+    .ProductHeader-h2 {
         padding: 40px;
     }
 
@@ -352,7 +352,7 @@ p {
         bottom: 5%;
     }
 
-    .Small {
+    .FeaturedSection-imgSmall {
         width: 50px;
         height: 50px;
         object-fit: cover;
@@ -499,7 +499,7 @@ p {
         gap: 60px;
     }
 
-    .PurchaseQuantity {
+    .FeaturedSection-purchaseQuantity {
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
@@ -771,7 +771,7 @@ p {
 
     }
 
-    .Contact-legalsUl {
+    .ContactLegals-ul {
 
         display: flex;
         flex-flow: column nowrap;
@@ -781,15 +781,15 @@ p {
         gap: 10px;
     }
 
-    .Contact-legalsLi {
+    .ContactLegals-li {
         font-weight: 300;
         letter-spacing: 3px;
         text-transform: lowercase;
     }
 
-    .Contact-legalsA {}
+    .ContactLegals-a {}
 
-    .Newsletter-form {
+    .ContactLegals-form {
         display: flex;
         flex-flow: row nowrap;
         justify-content: start;

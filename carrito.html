@@ -25,7 +25,7 @@
 
         <nav class="Header-nav">
 
-            <button class="Hamburger" aria-label="Abrir menú" aria-expanded="false">
+            <button class="Header-hamburger" aria-label="Abrir menú" aria-expanded="false">
                 <span class="Line"></span>
                 <span class="Line"></span>
                 <span class="Line"></span>
@@ -50,12 +50,12 @@
 
         <!-- CABECERA PRODUCTOS SELECCIONADOS -->
 
-        <div class="SelectedProducts-header">
-            <div class="SelectedProducts-headerImgWrapper">
-                <img src="assets/Simbolo_AttikStudio.svg" alt="Símbolo AttikStudio" loading="lazy" class="Product-headerImg">
+        <div class="SelectedProductsHeader">
+            <div class="SelectedProductsHeader-imgWrapper">
+                <img src="assets/Simbolo_AttikStudio.svg" alt="Símbolo AttikStudio" loading="lazy" class="SelectedProductsHeader-img">
             </div>
-            <div class="SelectedProducts-headerTextWrapper">
-                <h2 class="SelectedProducts-headerH2">Tu selección</h2>
+            <div class="SelectedProductsHeader-textWrapper">
+                <h2 class="SelectedProductsHeader-h2">Tu selección</h2>
                 <a href="tienda.html" class="Button">
                     <img src="assets/Arrow.svg" alt="Arrow" loading="lazy" class="Button-symbol">
                     <span class="Button-text">Volver a la tienda</span>
@@ -66,7 +66,7 @@
 
         <!-- PRODUCTOS SELECCIONADOS -->
 
-        <div class="Selected-section">
+        <div class="SelectedSection">
             <div class="SelectedSection-productWrapper">
                 <article class="Product-article">
                     <div class="Product-imgWrapper">
@@ -126,13 +126,13 @@
 
         <!-- FORMULARIO -->
 
-        <section class="SelectedProducts-form">
-            <div class="Form-title">
-                <h2 class="Form-h2">Enviar solicitud</h2>
+        <section class="SelectedProductsForm">
+            <div class="SelectedProductsForm-title">
+                <h2 class="SelectedProductsForm-h2">Enviar solicitud</h2>
             </div>
-            <div class="Form-content">
-                <div class="Form-info">
-                    <p class="Form-p">
+            <div class="SelectedProductsForm-content">
+                <div class="SelectedProductsForm-info">
+                    <p class="SelectedProductsForm-p">
                         resolvemos tus dudas, confirmamos
                         la disponibilidad y te mandamos el
                         presupuesto con un enlace de pago
@@ -140,21 +140,21 @@
                         <strong>100% sin compromiso.</strong>
                     </p>
                 </div>
-                <form class="Form-fields">
-                    <div class="Form-field">
+                <form class="SelectedProductsForm-fields">
+                    <div class="SelectedProductsForm-field">
                         <label for="nombre">nombre y apellidos*</label>
                         <input type="text" id="nombre" name="nombre" required>
                     </div>
-                    <div class="Form-field">
+                    <div class="SelectedProductsForm-field">
                         <label for="correo">correo electrónico*</label>
                         <input type="email" id="correo" name="correo" required>
                     </div>
-                    <div class="Form-field">
+                    <div class="SelectedProductsForm-field">
                         <label for="telefono">teléfono</label>
                         <input type="tel" id="telefono" name="telefono">
                     </div>
                 </form>
-                <div class="Form-message">
+                <div class="SelectedProductsForm-message">
                     <label for="Message">¿dudas? escríbenos...</label>
                     <textarea id="Message" name="Message"></textarea>
                 </div>
@@ -205,29 +205,24 @@
             </ul>
         </div>
         <div class="Footer-contactLegals">
-            <ul class="Contact-legalsUl">
-                <li class="Contact-legalsLi">
-                    <form action="/suscripcion" method="POST" class="Newsletter-form">
+            <ul class="ContactLegals-ul">
+                <li class="ContactLegals-li">
+                    <form action="/suscripcion" method="POST" class="ContactLegals-form">
                         <label for="email-newsletter">Newsletter</label>
                         <input type="email" id="email-newsletter" name="email" placeholder="Introduce tu email"
                             required>
                         <button type="submit">Enviar</button>
                     </form>
                 </li>
-                <li class="Contact-legalsLi">
-                    <a href="nosotros.html" class="Contact-legalsA">Contacto</a>
+                <li class="ContactLegals-li">
+                    <a href="nosotros.html" class="ContactLegals-a">Contacto</a>
                 </li>
-                <li class="Contact-legalsLi">
+                <li class="ContactLegals-li">
                     <a href="politica-de-privacidad.html" class="Contact-legalsA">Política de privacidad</a>
                 </li>
             </ul>
         </div>
     </footer>
-
-
-
-
-
 
 </body>
 

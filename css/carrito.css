@@ -222,7 +222,7 @@ p {
                 display: none;
             }
 
-            .Hamburger {
+            .Header-hamburger {
                 display: flex;
             }
         }
@@ -230,7 +230,7 @@ p {
 
 }
 
-.Hamburger {
+.Header-hamburger {
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -274,31 +274,31 @@ p {
 
 /* CABECERA PRODUCTOS SELECCIONADOS */
 
-.SelectedProducts-header {
+.SelectedProductsHeader {
     width: 100%;
     min-height: 150px;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
-    .SelectedProducts-headerImgWrapper {
+    .SelectedProductsHeader-imgWrapper {
         min-width: 400px;
         position: relative;
         border-right: var(--borderSubtle);
     }
 
-    .Product-headerImg {
+    .SelectedProductsHeader-img {
         width: 100%;
         position: absolute;
         bottom: 20px;
     }
 
-    .SelectedProducts-headerTextWrapper {
+    .SelectedProductsHeader-textWrapper {
         display: grid;
         grid-template-rows: 1fr 70px;
     }
 
-    .SelectedProducts-headerH2 {
+    .SelectedProductsHeader-h2 {
         padding: 40px;
     }
 
@@ -327,7 +327,7 @@ p {
 
 /* PRODUCTOS SELECCIONADOS */
 
-.Selected-section {
+.SelectedSection {
     width: 100%;
     border-top: var(--borderStrong);
 }
@@ -468,12 +468,12 @@ p {
 
 /* FORMULARIO */
 
-.SelectedProducts-form {
+.SelectedProductsForm {
 
     width: 100%;
     border-top: var(--borderStrong);
 
-    .Form-title {
+    .SelectedProductsForm-title {
         width: 100%;
         min-height: 70px;
         display: flex;
@@ -484,14 +484,14 @@ p {
         margin: auto 40px;
     }
 
-    .Form-h2 {
+    .SelectedProductsForm-h2 {
         font-size: clamp(1.2rem, 1.33vw, 1.45rem);
         font-weight: 400;
         text-transform: uppercase;
         letter-spacing: 6px;
     }
 
-    .Form-content {
+    .SelectedProductsForm-content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         min-height: 158px;
@@ -499,7 +499,7 @@ p {
 
     }
 
-    .Form-info {
+    .SelectedProductsForm-info {
         display: flex;
         flex-flow: row nowrap;
         justify-content: start;
@@ -508,7 +508,7 @@ p {
         border-right: var(--borderSubtle);
     }
 
-    .Form-p {
+    .SelectedProductsForm-p {
         font-weight: 300;
         padding: 0 40px;
 
@@ -517,7 +517,7 @@ p {
         }
     }
 
-    .Form-fields {
+    .SelectedProductsForm-fields {
         display: flex;
         flex-flow: column nowrap;
         justify-content: start;
@@ -527,7 +527,7 @@ p {
         border-right: var(--borderSubtle);
     }
 
-    .Form-field {
+    .SelectedProductsForm-field {
         width: 100%;
         font-weight: 300;
         font-size: 0.9rem;
@@ -549,7 +549,7 @@ p {
         }
     }
 
-    .Form-message {
+    .SelectedProductsForm-message {
         width: 100%;
 
         display: flex;
@@ -683,7 +683,7 @@ p {
 
     }
 
-    .Contact-legalsUl {
+    .ContactLegals-ul {
 
         display: flex;
         flex-flow: column nowrap;
@@ -693,15 +693,15 @@ p {
         gap: 10px;
     }
 
-    .Contact-legalsLi {
+    .ContactLegals-li {
         font-weight: 300;
         letter-spacing: 3px;
         text-transform: lowercase;
     }
 
-    .Contact-legalsA {}
+    .ContactLegals-a {}
 
-    .Newsletter-form {
+    .ContactLegals-form {
         display: flex;
         flex-flow: row nowrap;
         justify-content: start;
