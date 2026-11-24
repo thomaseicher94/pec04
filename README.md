@@ -1,2 +1,2 @@
-# pec04
+# PEC04
 Pec04 Thomas Eicher
