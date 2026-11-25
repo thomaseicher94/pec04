@@ -146,20 +146,20 @@ p {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 4px;
-    min-height: 70px;
+    min-height: 4.375rem;
 }
 
-/* CABEZERA */
+/* CABECERA */
 
 .Header {
     width: 100%;
-    min-height: 100px;
+    min-height: 6.25rem;
 
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
-    padding-top: 20px;
+    padding-top: 1.25rem;
 
 
     position: sticky;
@@ -179,19 +179,19 @@ p {
         justify-content: start;
         align-items: center;
 
-        margin-top: -20px;
-        padding-top: 20px;
+        margin-top: -1.25rem;
+        padding-top: 1.25rem;
     }
 
     .Header-img {
         width: 100%;
-        min-width: 400px;
-        padding-right: 20px;
+        min-width: 25rem;
+        padding-right: 1.25rem;
     }
 
     .Header-nav {
         width: 100%;
-        min-height: 50px;
+        min-height: 3.125rem;
         border-top: 2px solid var(--burdeos);
 
         color: var(--burdeos);
@@ -205,7 +205,7 @@ p {
         justify-content: space-between;
         align-items: center;
 
-        padding: 0 40px;
+        padding: 0 2.5rem;
 
         @media (max-width:1200px) {
             .Header-ulLeft {
@@ -224,8 +224,8 @@ p {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 22px;
+    width: 1.875rem;
+    height: 1.375rem;
 }
 
 .Line {
@@ -241,7 +241,7 @@ p {
     flex-flow: row nowrap;
     justify-content: start;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .Header-aLeft {}
@@ -257,7 +257,7 @@ p {
     flex-flow: row nowrap;
     justify-content: end;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .Header-aRight {}
@@ -268,13 +268,13 @@ p {
 
 .ProductHeader {
     width: 100%;
-    min-height: 150px;
+    min-height: 9.375rem;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
     .ProductHeader-imgWrapper {
-        min-width: 400px;
+        min-width: 25rem;
         position: relative;
         border-right: var(--borderSubtle);
     }
@@ -282,16 +282,16 @@ p {
     .ProductHeader-img {
         width: 100%;
         position: absolute;
-        bottom: 20px;
+        bottom: 1.25rem;
     }
 
     .ProductHeader-textWrapper {
         display: grid;
-        grid-template-rows: 1fr 70px;
+        grid-template-rows: 1fr 4.375rem;
     }
 
     .ProductHeader-h2 {
-        padding: 40px;
+        padding: 2.5rem;
     }
 
     .Button {
@@ -301,15 +301,15 @@ p {
         flex-flow: row nowrap;
         justify-content: start;
         align-items: center;
-        padding: 0 40px;
-        gap: 20px;
+        padding: 0 2.5rem;
+        gap: 1.25rem;
 
         border-top: var(--borderSubtle);
     }
 
     .Button-symbol {
-        width: 10px;
-        height: 10px;
+        width: 0.625rem;
+        height: 0.625rem;
         rotate: 180deg;
     }
 
@@ -321,12 +321,12 @@ p {
 
 .FeaturedSection {
     width: 100%;
-    min-height: 600px;
+    min-height: 37.5rem;
     border-top: var(--borderStrong);
 
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 70px;
+    grid-template-rows: 1fr 4.375rem;
 
     .FeaturedSection-imgWrapper {
         position: relative;
@@ -334,7 +334,7 @@ p {
 
     .FeaturedSection-img {
         width: 100%;
-        height: 750px;
+        height: 46.875rem;
         object-fit: cover;
         border-right: var(--borderSubtle);
     }
@@ -346,15 +346,15 @@ p {
         flex-flow: row nowrap;
         justify-content: end;
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
 
         position: absolute;
         bottom: 5%;
     }
 
     .FeaturedSection-imgSmall {
-        width: 50px;
-        height: 50px;
+        width: 3.125rem;
+        height: 3.125rem;
         object-fit: cover;
         border: var(--borderSubtle)
     }
@@ -365,16 +365,16 @@ p {
         justify-content: start;
         align-items: start;
 
-        margin-top: 60px;
-        gap: 10px;
+        margin-top: 3.75rem;
+        gap: 0.625rem;
     }
 
     .FeaturedSection-mainTitle {
-        margin: 0 40px;
+        margin: 0 2.5rem;
     }
 
     .FeaturedSection-description {
-        margin: 0 40px;
+        margin: 0 2.5rem;
     }
 
     .FeaturedSection-colors {
@@ -383,7 +383,7 @@ p {
         justify-content: start;
         align-items: center;
 
-        gap: 10px;
+        gap: 0.625rem;
     }
 
     .ColorWrapper {
@@ -393,13 +393,13 @@ p {
         justify-content: start;
         align-items: center;
 
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
     }
 
     .Color {
-        width: 40px;
-        min-height: 20px;
+        width: 2.5rem;
+        min-height: 1.25rem;
     }
 
     .White {
@@ -416,7 +416,7 @@ p {
 
     .Color--selected {
         position: relative;
-        width: 40px;
+        width: 2.5rem;
         height: auto;
         background: #d9a05e;
 
@@ -443,11 +443,11 @@ p {
         font-size: 0.8rem;
         font-weight: 200;
         text-transform: lowercase;
-        margin-left: 15px;
+        margin-left: 0.9375rem;
     }
 
     .FeaturedSection-secondaryTitle {
-        margin: 30px 40px 0 40px;
+        margin: 1.875rem 2.5rem 0 2.5rem;
     }
 
     .FeaturedSection-secondaryContent {
@@ -457,7 +457,7 @@ p {
 
     .FeaturedSection-productLabel {
         font-weight: 300;
-        margin: 0 40px;
+        margin: 0 2.5rem;
     }
 
     .ProductLabel-title {
@@ -473,13 +473,13 @@ p {
         justify-content: start;
         align-items: center;
 
-        margin: 40px;
-        gap: 20px;
+        margin: 2.5rem;
+        gap: 1.25rem;
     }
 
     .DownloadButton-img {
-        width: 30px;
-        min-height: 30px;
+        width: 1.875rem;
+        min-height: 1.875rem;
 
     }
 
@@ -495,8 +495,8 @@ p {
         justify-content: space-between;
         align-items: center;
 
-        margin: 0 40px;
-        gap: 60px;
+        margin: 0 2.5rem;
+        gap: 3.75rem;
     }
 
     .FeaturedSection-purchaseQuantity {
@@ -504,7 +504,7 @@ p {
         flex-flow: row nowrap;
         align-items: center;
 
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .Quantity {
@@ -513,12 +513,12 @@ p {
     }
 
     input {
-        width: 100px;
+        width: 6.25rem;
         font-size: 0.9rem;
         font-weight: 600;
         color: white;
         background-color: var(--greenSage);
-        padding: 5px 10px;
+        padding: 0.3125rem 0.625rem;
     }
 
     .Price {
@@ -543,18 +543,18 @@ p {
 
     .Button-cart {
         width: auto;
-        min-height: 40px;
+        min-height: 2.5rem;
 
         display: flex;
         flex-flow: row nowrap;
         justify-content: end;
         align-items: center;
-        margin: 0 40px;
-        gap: 20px;
+        margin: 0 2.5rem;
+        gap: 1.25rem;
 
         .Button-symbol {
-            width: 10px;
-            height: 10px;
+            width: 0.625rem;
+            height: 0.625rem;
         }
 
         .Button-text {}
@@ -568,7 +568,7 @@ p {
     border-top: var(--borderStrong);
 
     display: grid;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 6.25rem 1fr;
 }
 
 .RelatedSection-title {
@@ -584,7 +584,7 @@ p {
     width: 100%;
     font-size: clamp(1.2rem, 1.33vw, 1.45rem);
     letter-spacing: 5px;
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 .RelatedSection-productWrapper {
@@ -624,8 +624,8 @@ p {
     }
 
     .Product-color {
-        width: 40px;
-        min-height: 20px;
+        width: 2.5rem;
+        min-height: 1.25rem;
     }
 
     .BlancoNiebla {
@@ -671,7 +671,7 @@ p {
     }
 
     .Product-description {
-        margin: 20px 5px 20px 40px;
+        margin: 1.25rem 0.3125rem 1.25rem 2.5rem;
     }
 
     .Product-descriptionH3 {}
@@ -682,7 +682,7 @@ p {
     }
 
     .Product-span {
-        margin: 20px 40px 20px 5px;
+        margin: 1.25rem 2.5rem 1.25rem 0.3125rem;
         font-weight: 200;
         font-size: clamp(1.2rem, 1.33vw, 1.45rem);
         letter-spacing: 3px;
@@ -695,13 +695,13 @@ p {
 
 .Footer {
     width: 100%;
-    min-height: 220px;
+    min-height: 13.75rem;
     border-top: var(--borderStrong);
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 
     .Footer-logos {
         border-right: var(--borderSubtle);
@@ -714,13 +714,13 @@ p {
 
     .Footer-imgLogo {
         width: 100%;
-        padding-top: 30px;
-        padding-right: 20px;
+        padding-top: 1.875rem;
+        padding-right: 1.25rem;
     }
 
     .Footer-imgSymbol {
         width: 100%;
-        min-height: 100px;
+        min-height: 6.25rem;
     }
 
     .Footer-socials {
@@ -732,14 +732,14 @@ p {
         justify-content: end;
         align-items: start;
 
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     .Socials-span {
         font-weight: 500;
         letter-spacing: 3px;
         text-transform: lowercase;
-        margin-left: 40px;
+        margin-left: 2.5rem;
     }
 
     .Socials-ul {
@@ -747,8 +747,8 @@ p {
         flex-flow: row nowrap;
         justify-content: start;
         align-items: center;
-        margin: 0 0 40px 40px;
-        gap: 30px;
+        margin: 0 0 2.5rem 2.5rem;
+        gap: 1.875rem;
     }
 
     .Socials-li {}
@@ -757,7 +757,7 @@ p {
 
     .Socials-img {
 
-        height: 40px;
+        height: 2.5rem;
     }
 
     .Footer-contactLegals {
@@ -777,8 +777,8 @@ p {
         flex-flow: column nowrap;
         justify-content: end;
         align-items: start;
-        margin: 0 0 40px 40px;
-        gap: 10px;
+        margin: 0 0 2.5rem 2.5rem;
+        gap: 0.625rem;
     }
 
     .ContactLegals-li {
@@ -795,15 +795,15 @@ p {
         justify-content: start;
         align-items: center;
 
-        gap: 10px;
+        gap: 0.625rem;
 
         input {
-            width: 150px;
+            width: 9.375rem;
             background-color: var(--greenSage);
             font-size: 0.7rem;
             color: var(--burdeos);
-            margin: 5px;
-            padding: 5px;
+            margin: 0.3125rem;
+            padding: 0.3125rem;
         }
 
         button {

@@ -148,17 +148,17 @@ p {
     letter-spacing: 4px;
 }
 
-/* CABEZERA */
+/* CABECERA */
 
 .Header {
     width: 100%;
-    min-height: 100px;
+    min-height: 6.25rem;
 
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
-    padding-top: 20px;
+    padding-top: 1.25rem;
 
 
     position: sticky;
@@ -178,19 +178,19 @@ p {
         justify-content: start;
         align-items: center;
 
-        margin-top: -20px;
-        padding-top: 20px;
+        margin-top: -1.25rem;
+        padding-top: 1.25rem;
     }
 
     .Header-img {
         width: 100%;
-        min-width: 400px;
-        padding-right: 20px;
+        min-width: 25rem;
+        padding-right: 1.25rem;
     }
 
     .Header-nav {
         width: 100%;
-        min-height: 50px;
+        min-height: 3.125rem;
         border-top: 2px solid var(--burdeos);
 
         color: var(--burdeos);
@@ -204,7 +204,7 @@ p {
         justify-content: space-between;
         align-items: center;
 
-        padding: 0 40px;
+        padding: 0 2.5rem;
 
         @media (max-width:1200px) {
             .Header-ulLeft {
@@ -223,8 +223,8 @@ p {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 22px;
+    width: 1.875rem;
+    height: 1.375rem;
 }
 
 .Line {
@@ -240,7 +240,7 @@ p {
     flex-flow: row nowrap;
     justify-content: start;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
 
     .Header-aLeft--bold {
         font-weight: 700;
@@ -256,7 +256,7 @@ p {
     flex-flow: row nowrap;
     justify-content: end;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .Header-aRight {}
@@ -267,25 +267,25 @@ p {
 
     .About-img {
         width: 100%;
-        min-height: 650px;
+        min-height: 40.625rem;
         object-fit: cover;
-        margin-top: -100px;
+        margin-top: -6.25rem;
     }
 
     .About-textWrapper {
         width: 100%;
-        min-height: 300px;
+        min-height: 18.75rem;
         border-top: var(--borderSubtle);
     }
 
     .About-title {
         width: 100%;
-        min-height: 120px;
+        min-height: 7.5rem;
         display: flex;
         flex-flow: row nowrap;
         justify-content: start;
         align-items: center;
-        margin: auto 40px;
+        margin: auto 2.5rem;
     }
 
     .About-h2 {
@@ -303,18 +303,18 @@ p {
         flex-flow: column nowrap;
         justify-content: center;
         align-items: start;
-        padding-top: 40px;
+        padding-top: 2.5rem;
 
     }
 
     .About-p1 {
         width: 50%;
-        padding: 0 40px;
+        padding: 0 2.5rem;
     }
 
     .About-p2 {
         width: 50%;
-        padding: 40px;
+        padding: 2.5rem;
     }
 }
 
@@ -322,15 +322,15 @@ p {
 
 .Approach {
     width: 100%;
-    min-height: 400px;
+    min-height: 25rem;
     border-top: var(--borderStrong);
 
     display: grid;
-    grid-template-rows: 120px 1fr;
+    grid-template-rows: 7.5rem 1fr;
 
     .Approach-h2 {
         text-align: right;
-        margin: auto 40px;
+        margin: auto 2.5rem;
     }
 
     .Approach-sectionWrapper {
@@ -354,13 +354,13 @@ p {
 
     .Approach-img {
         width: 100%;
-        min-height: 450px;
+        min-height: 28.125rem;
         object-fit: cover;
     }
 
     .Approach-textWrapper {
         border-top: var(--borderSubtle);
-        padding: 40px;
+        padding: 2.5rem;
         display: flex;
         flex-flow: column nowrap;
         justify-content: start;
@@ -377,7 +377,7 @@ p {
     .Approach-h3 {}
 
     .Approach-p {
-        padding-top: 30px;
+        padding-top: 1.875rem;
     }
 
 }
@@ -389,7 +389,7 @@ p {
     border-top: var(--borderStrong);
 
     display: grid;
-    grid-template-rows: 70px 1fr;
+    grid-template-rows: 4.375rem 1fr;
 
 
     .Clients-h4 {
@@ -398,12 +398,12 @@ p {
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 3px;
-        margin: auto 40px;
+        margin: auto 2.5rem;
     }
 
     .Clients-logosWrapper {
         width: 100%;
-        min-height: 200px;
+        min-height: 12.5rem;
         border-top: var(--borderSubtle);
 
         display: flex;
@@ -411,13 +411,13 @@ p {
         justify-content: space-between;
         align-items: center;
 
-        gap: 30px;
-        padding: 40px;
+        gap: 1.875rem;
+        padding: 2.5rem;
 
     }
 
     .Clients-logo {
-        width: 120px;
+        width: 7.5rem;
     }
 }
 
@@ -425,25 +425,25 @@ p {
 
 .ContactForm {
     width: 100%;
-    min-height: 600px;
+    min-height: 37.5rem;
     border-top: var(--borderStrong);
 
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 120px;
+    grid-template-rows: 1fr 7.5rem;
 
     .ContactForm-textWrapper {
         width: 100%;
         border-right: var(--borderSubtle);
         display: grid;
-        grid-template-rows: 120px 1fr 70px;
+        grid-template-rows: 7.5rem 1fr 4.375rem;
 
 
     }
 
     .ContactForm-h2 {
-        margin-left: 40px;
-        margin: auto 40px;
+        margin-left: 2.5rem;
+        margin: auto 2.5rem;
     }
 
     .ContactForm-inputWrapper {
@@ -452,7 +452,7 @@ p {
         justify-content: center;
         align-items: start;
         border-top: var(--borderSubtle);
-        gap: 10px;
+        gap: 0.625rem;
     }
 
     .ContactForm-message {
@@ -460,38 +460,38 @@ p {
         flex-flow: column nowrap;
         justify-content: start;
         align-items: start;
-        margin: 0 40px;
-        gap: 20px;
+        margin: 0 2.5rem;
+        gap: 1.25rem;
 
         label {}
 
         textarea {
-            width: 570px;
-            min-height: 100px;
+            width: 35.625rem;
+            min-height: 6.25rem;
             background-color: var(--greenSage);
             font-size: 0.9rem;
             color: var(--burdeos);
-            padding: 5px 10px;
+            padding: 0.3125rem 0.625rem;
         }
     }
 
     .ContactForm-mail {
-        margin: 0 40px;
+        margin: 0 2.5rem;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
 
         label {}
 
         textarea {
-            width: 406px;
-            min-height: 30px;
+            width: 25.375rem;
+            min-height: 1.875rem;
             background-color: var(--greenSage);
             font-size: 0.9rem;
             color: var(--burdeos);
-            padding: 5px 10px;
+            padding: 0.3125rem 0.625rem;
         }
     }
 
@@ -510,8 +510,8 @@ p {
         flex-flow: row nowrap;
         justify-content: end;
         align-items: center;
-        margin: auto 40px;
-        gap: 20px;
+        margin: auto 2.5rem;
+        gap: 1.25rem;
     }
 
     .Button-symbol {
@@ -540,7 +540,7 @@ p {
 
     .ContactForm-informationLi {
         width: 100%;
-        min-height: 120px;
+        min-height: 7.5rem;
 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -552,20 +552,20 @@ p {
     .ContactForm-informationA {
         width: 100%;
         display: grid;
-        grid-template-columns: 120px 3fr;
+        grid-template-columns: 7.5rem 3fr;
         border-right: var(--borderSubtle);
         
     }
 
     .ContactForm-informationImg {
-        width: 50px;
-        height: 50px;
+        width: 3.125rem;
+        height: 3.125rem;
         margin: auto;
 
     }
 
     .ContactForm-informationSpan {
-        margin: auto 40px;
+        margin: auto 2.5rem;
     }
 
     .ContactForm-informationSpanMailPhone {
@@ -581,13 +581,13 @@ p {
 
 .Footer {
     width: 100%;
-    min-height: 220px;
+    min-height: 13.75rem;
     border-top: var(--borderStrong);
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 
     .Footer-logos {
         border-right: var(--borderSubtle);
@@ -600,13 +600,13 @@ p {
 
     .Footer-imgLogo {
         width: 100%;
-        padding-top: 30px;
-        padding-right: 20px;
+        padding-top: 1.875rem;
+        padding-right: 1.25rem;
     }
 
     .Footer-imgSymbol {
         width: 100%;
-        min-height: 100px;
+        min-height: 6.25rem;
     }
 
     .Footer-socials {
@@ -618,14 +618,14 @@ p {
         justify-content: end;
         align-items: start;
 
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     .Socials-span {
         font-weight: 500;
         letter-spacing: 3px;
         text-transform: lowercase;
-        margin-left: 40px;
+        margin-left: 2.5rem;
     }
 
     .Socials-ul {
@@ -633,8 +633,8 @@ p {
         flex-flow: row nowrap;
         justify-content: start;
         align-items: center;
-        margin: 0 0 40px 40px;
-        gap: 30px;
+        margin: 0 0 2.5rem 2.5rem;
+        gap: 1.875rem;
     }
 
     .Socials-li {}
@@ -643,7 +643,7 @@ p {
 
     .Socials-img {
 
-        height: 40px;
+        height: 2.5rem;
     }
 
     .Footer-contactLegals {
@@ -663,8 +663,8 @@ p {
         flex-flow: column nowrap;
         justify-content: end;
         align-items: start;
-        margin: 0 0 40px 40px;
-        gap: 10px;
+        margin: 0 0 2.5rem 2.5rem;
+        gap: 0.625rem;
     }
 
     .ContactLegals-li {
@@ -681,15 +681,15 @@ p {
         justify-content: start;
         align-items: center;
 
-        gap: 10px;
+        gap: 0.625rem;
 
         input {
-            width: 150px;
+            width: 9.375rem;
             background-color: var(--greenSage);
             font-size: 0.7rem;
             color: var(--burdeos);
-            margin: 5px;
-            padding: 5px;
+            margin: 0.3125rem;
+            padding: 0.3125rem;
         }
 
         button {

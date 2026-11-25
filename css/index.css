@@ -148,17 +148,17 @@ p {
     letter-spacing: 4px;
 }
 
-/* CABEZERA */
+/* CABECERA */
 
 .Header {
     width: 100%;
-    min-height: 100px;
+    min-height: 6.25rem;
 
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
-    padding-top: 20px;
+    padding-top: 1.25rem;
 
 
     position: sticky;
@@ -178,19 +178,19 @@ p {
         justify-content: start;
         align-items: center;
 
-        margin-top: -20px;
-        padding-top: 20px;
+        margin-top: -1.25rem;
+        padding-top: 1.25rem;
     }
 
     .Header-img {
         width: 100%;
-        min-width: 400px;
-        padding-right: 20px;
+        min-width: 25rem;
+        padding-right: 1.25rem;
     }
 
     .Header-nav {
         width: 100%;
-        min-height: 50px;
+        min-height: 3.125rem;
         border-top: 2px solid #ffffff;
 
         color: white;
@@ -205,7 +205,7 @@ p {
         justify-content: space-between;
         align-items: center;
 
-        padding: 0 40px;
+        padding: 0 2.5rem;
 
         @media (max-width:1200px) {
             .Header-ulLeft {
@@ -224,8 +224,8 @@ p {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 22px;
+    width: 1.875rem;
+    height: 1.375rem;
 }
 
 .Line {
@@ -241,7 +241,7 @@ p {
     flex-flow: row nowrap;
     justify-content: start;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
 
     .Header-aLeft-bold {
     font-weight: 700;
@@ -257,7 +257,7 @@ p {
     flex-flow: row nowrap;
     justify-content: end;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .Header-aRight {}
@@ -268,15 +268,15 @@ p {
 
 .Hero {
     width: 100%;
-    min-height: 800px;
+    min-height: 50rem;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
-    margin-top: -100px;
+    margin-top: -6.25rem;
 
     .Hero-wrapper {
-        min-width: 400px;
+        min-width: 25rem;
         border-right: var(--borderSubtle);
 
         display: grid;
@@ -284,17 +284,17 @@ p {
 
         position: relative;
 
-        padding-top: 100px;
+        padding-top: 6.25rem;
     }
 
     .Hero-h1 {
-        padding: 40px 0 0 40px;
+        padding: 2.5rem 0 0 2.5rem;
     }
 
     .Hero-symbol {
         width: 100%;
         position: absolute;
-        bottom: 40px;
+        bottom: 2.5rem;
 
 
     }
@@ -319,16 +319,16 @@ p {
         flex-flow: row nowrap;
         justify-content: end;
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
         position: absolute;
-        bottom: 40px;
-        right: 40px;
+        bottom: 2.5rem;
+        right: 2.5rem;
         z-index: 1;
     }
 
     .Hero-imgSmall {
-        width: 50px;
-        height: 50px;
+        width: 3.125rem;
+        height: 3.125rem;
         object-fit: cover;
         border: var(--borderSubtle);
     }
@@ -339,14 +339,14 @@ p {
 
 .Introduction {
     width: 100%;
-    min-height: 600px;
+    min-height: 37.5rem;
 
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
     .Introduction-textWrapper {
-        min-width: 400px;
+        min-width: 25rem;
         border-top: var(--borderStrong);
         border-right: var(--borderSubtle);
 
@@ -361,12 +361,12 @@ p {
         text-decoration-thickness: 2px;
         text-underline-offset: 0.45em;
 
-        margin: 40px 40px 55px 40px;
+        margin: 2.5rem 2.5rem 3.4375rem 2.5rem;
     }
 
     .Introduction-description {
         border-top: var(--borderSubtle);
-        padding: 0 40px;
+        padding: 0 2.5rem;
         display: flex;
         align-items: center;
 
@@ -394,15 +394,15 @@ p {
 
 .Members {
     width: 100%;
-    min-height: 700px;
+    min-height: 43.75rem;
     border-top: var(--borderStrong);
 
     display: grid;
-    grid-template-rows: 120px 1fr 70px;
+    grid-template-rows: 7.5rem 1fr 4.375rem;
 
     .Members-h2 {
         text-align: right;
-        margin: auto 40px;
+        margin: auto 2.5rem;
     }
 
     .Members-wrapper {
@@ -421,7 +421,7 @@ p {
         flex-flow: column nowrap;
         justify-content: start;
         align-items: start;
-        gap: 10px;
+        gap: 0.625rem;
     }
 
     .Member-img {
@@ -437,14 +437,14 @@ p {
         justify-content: start;
         align-items: start;
 
-        margin: 40px;
-        gap: 5px;
+        margin: 2.5rem;
+        gap: 0.3125rem;
     }
 
     .Member-name {}
 
     .Member-function {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .Member-description {}
@@ -459,18 +459,18 @@ p {
 
         .Button-studio {
             width: auto;
-            min-height: 40px;
+            min-height: 2.5rem;
 
             display: flex;
             flex-flow: row nowrap;
             justify-content: end;
             align-items: center;
-            margin: 0 40px;
-            gap: 20px;
+            margin: 0 2.5rem;
+            gap: 1.25rem;
 
             .Button-symbol {
-                width: 10px;
-                height: 10px;
+                width: 0.625rem;
+                height: 0.625rem;
             }
 
             .Button-text {}
@@ -483,15 +483,15 @@ p {
 
 .Contact {
     width: 100%;
-    min-height: 570px;
+    min-height: 35.625rem;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
 
     .Contact-text {
-        min-width: 400px;
+        min-width: 25rem;
         display: grid;
-        grid-template-rows: 120px 3fr 70px;
+        grid-template-rows: 7.5rem 3fr 4.375rem;
         border-top: var(--borderStrong);
     }
 
@@ -505,12 +505,12 @@ p {
     }
 
     .Contact-h2 {
-        margin: auto 40px;
+        margin: auto 2.5rem;
     }
 
     .Contact-ul {
         display: grid;
-        grid-template-columns: 1fr 130px;
+        grid-template-columns: 1fr 8.125rem;
         grid-template-rows: repeat(3, 1fr);
 
     }
@@ -525,7 +525,7 @@ p {
     }
 
     .Contact-a {
-        margin: auto 0 auto 40px;
+        margin: auto 0 auto 2.5rem;
     }
 
     .Contact-aImg {
@@ -546,8 +546,8 @@ p {
     }
 
     .Contact-img {
-        width: 50px;
-        height: 50px;
+        width: 3.125rem;
+        height: 3.125rem;
     }
 
     .Contact-aMap {
@@ -574,18 +574,18 @@ p {
 
         .Button-contact {
             width: auto;
-            min-height: 40px;
+            min-height: 2.5rem;
 
             display: flex;
             flex-flow: row nowrap;
             justify-content: end;
             align-items: center;
-            margin: 0 40px;
-            gap: 20px;
+            margin: 0 2.5rem;
+            gap: 1.25rem;
 
             .Button-symbol {
-                width: 10px;
-                height: 10px;
+                width: 0.625em;
+                height: 0.625rem;
             }
 
             .Button-text {}
@@ -599,13 +599,13 @@ p {
 
 .Footer {
     width: 100%;
-    min-height: 220px;
+    min-height: 13.75rem;
     border-top: var(--borderStrong);
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 
     .Footer-logos {
         border-right: var(--borderSubtle);
@@ -618,13 +618,13 @@ p {
 
     .Footer-imgLogo {
         width: 100%;
-        padding-top: 30px;
-        padding-right: 20px;
+        padding-top: 1.875rem;
+        padding-right: 1.25rem;
     }
 
     .Footer-imgSymbol {
         width: 100%;
-        min-height: 100px;
+        min-height: 6.25rem;
     }
 
     .Footer-socials {
@@ -636,14 +636,14 @@ p {
         justify-content: end;
         align-items: start;
 
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     .Socials-span {
         font-weight: 500;
         letter-spacing: 3px;
         text-transform: lowercase;
-        margin-left: 40px;
+        margin-left: 2.5rem;
     }
 
     .Socials-ul {
@@ -651,8 +651,8 @@ p {
         flex-flow: row nowrap;
         justify-content: start;
         align-items: center;
-        margin: 0 0 40px 40px;
-        gap: 30px;
+        margin: 0 0 2.5rem 2.5rem;
+        gap: 1.875rem;
     }
 
     .Socials-li {}
@@ -661,7 +661,7 @@ p {
 
     .Socials-img {
 
-        height: 40px;
+        height: 2.5rem;
     }
 
     .Footer-contactLegals {
@@ -681,8 +681,8 @@ p {
         flex-flow: column nowrap;
         justify-content: end;
         align-items: start;
-        margin: 0 0 40px 40px;
-        gap: 10px;
+        margin: 0 0 2.5rem 2.5rem;
+        gap: 0.625rem;
     }
 
     .ContactLegals-li {
@@ -699,15 +699,15 @@ p {
         justify-content: start;
         align-items: center;
 
-        gap: 10px;
+        gap: 0.625rem;
 
         input {
-            width: 150px;
+            width: 9.375rem;
             background-color: var(--greenSage);
             font-size: 0.7rem;
             color: var(--burdeos);
-            margin: 5px;
-            padding: 5px;
+            margin: 0.3125rem;
+            padding: 0.3125rem;
         }
 
         button {
